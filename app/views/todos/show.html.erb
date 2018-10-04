@@ -1,3 +1,5 @@
 <h1>Id is show</h1>
 <%= @todo.name  %>
 <%= @todo.description  %>
+<%= link_to("back", todos_path ) %>
+<%= link_to("edit", edit_todo_path(@todo) ) %>

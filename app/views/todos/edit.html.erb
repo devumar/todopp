@@ -1,4 +1,6 @@
 <h1>eidt and existing doto</h1>
+<%= link_to("back", todos_path ) %>
+
 <% if @todo.errors.any? %>
 	<ul>
 		<% 	@todo.errors.full_messages.each do |msg| %>
